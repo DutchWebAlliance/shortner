@@ -1,0 +1,23 @@
+{
+    "name": "dwa/shortner",
+    "require": {
+        "symfony/http-foundation": "2.8.*",
+        "predis/predis": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "license": "BSD",
+    "authors": [{
+        "name": "Joshua Thijssen",
+        "email": "jthijssen@dutchweballiance.nl"
+    }],
+    "suggests": {
+        "predis/predis" : "Redis as a storage backend"
+    },
+    "autoload": {
+        "psr-4": {
+            "DWA\\": "lib/DWA"
+        }
+    }
+}
